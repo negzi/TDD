@@ -104,6 +104,16 @@ class TestRomanNumerals(unittest.TestCase):
     def test_500(self):
         self.assertEqual('D', self.obj.answer(500))
 
+    def test_899(self):
+        self.assertEqual('DCCCXCIX', self.obj.answer(899))
+
+
+    def test_900(self):
+        self.assertEqual('CM', self.obj.answer(900))
+
+    def test_1998(self):
+        self.assertEqual('MCMXCVIII', self.obj.answer(1998))
+
 
 if __name__ == '__main__':
     unittest.main()

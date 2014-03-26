@@ -1,6 +1,6 @@
 class RomanNumerals:
 
-    limits = {499: 'D', 399: 'CD', 99: 'C', 89:'XC', 49:'L',39:'XL', 9:'X',4:'V'}
+    limits = {999: 'M', 899: 'CM', 499: 'D', 399: 'CD', 99: 'C', 89:'XC', 49:'L',39:'XL', 9:'X',4:'V'}
 
 
     def answer(self, i):
